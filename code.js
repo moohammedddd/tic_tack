@@ -7,7 +7,7 @@ function change (num1,num2,num3){
     document.getElementById("item"+ num2).style .background="#000";
     document.getElementById("item"+ num3).style .background="#000";
     setInterval(function(){title.innerHTML += '.'},1000)
-    setTimeout(function(){location.reload()},4000)
+    setTimeout(function(){location.reload()},3000)
     
 }
 
